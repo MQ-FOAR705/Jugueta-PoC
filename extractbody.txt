@@ -1,0 +1,3 @@
+for filename in *.txt
+do tail -n +6 $filename > ../corpus_output/body/body-${filename}
+done
