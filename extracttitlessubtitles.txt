@@ -1,0 +1,4 @@
+for filename in *.txt
+do head -n 3 $filename | tail -n 2
+done > articletitlessubtitles.txt
+mv articletitlessubtitles.txt ../corpus_output/articlestitlessubtitles.txt
